@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender</title>
+    <script src="https://kit.fontawesome.com/f426985a11.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/calender.css">
+    <link rel="stylesheet" href="./styles/sidebar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans&family=Raleway:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div id="fullbox">
+        <div id="sidebar">
+            <div>
+                <button><i class="fa-solid fa-bars"></i></button>
+            </div>
+            <div>
+                <button id="calenderHomeBtn"><span class="material-symbols-outlined">home</span></button>
+                <button id="calenderBtn"><span class="material-symbols-outlined">calendar_today</span></button>
+                <button id="requeBtn"><i class="fa-solid fa-shuffle"></i></button>
+                <button id="analyticsBtn"><span class="material-symbols-outlined">signal_cellular_alt</span></button>
+                <img src="https://app.coschedule.com/img/downgrade/banner-7a6c6a653a0ba9fcfb4d6475f9ce7441.svg" alt="" />
+            </div>
+            <div>
+                <button><span class="material-symbols-outlined">settings</span></button>
+                <button><span class="material-symbols-outlined">help</span></button>
+            </div>
+        </div>
+    <div id="whole">
+        <div id="header">
+            <div id="first">
+                <div id="cal">
+                    <i class="fa-solid fa-calendar"></i>
+                    <h2>Calendar</h2>
+                </div>
+                <h1>/</h1>
+                <div>   
+                    <select id="select">
+                        <option value="all">All</option>
+                        <option value="all">Projects Only</option>
+                        <option value="all">Social Only</option>
+                    </select>
+                </div>
+                <button><i class="fa-solid fa-filter"></i></button>
+                <button><i class="fa-solid fa-tv"></i></button>
+                <button><i class="fa-solid fa-ellipsis-vertical"></i></button>
+            </div>
+
+            <div id="second">
+                <button><i class="fa-solid fa-trophy"></i></button>
+                <button><i class="fa-solid fa-bell"></i></button>
+            </div>
+        </div>
+
+        <div id="main">
+            <div id="create">
+                <div id="blank"></div>
+                <div id="datee">
+                    <button id="disdate">
+                       <h3> SEP 1 - SEP 28 ,2022</h3>
+                    </button>
+                </div>
+                <div id="btnss">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <div>
+                        <button class="addpro">
+                            <i class="fa-solid fa-plus"></i>
+                            <p>Create</p>
+                        </button>
+                    </div>
+                    <div>
+                        <button>
+                            <i class="fa-solid fa-lightbulb"></i>
+                            <p>Ideas</p>
+                            <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="calender">
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="./scripts/calender.js"></script>
+</html>
