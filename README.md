@@ -23,22 +23,23 @@ Note - Please Open this link on Incoginate Window
 ### _Following are the Screenshots for the reference_
 
 - **Landing Page**
-  ![Landing Page](https://i.postimg.cc/nhwTcJf5/Screenshot-465.png)
+  ![Landing Page](https://i.postimg.cc/SK8wBGcj/Screenshot-20221127-114125.png)
 
 - **Log-in Page**
 
-  ![Landing Page](https://i.postimg.cc/gk76xkrv/Screenshot-466.png)
+  ![Login Page](https://i.postimg.cc/W3Kjj4h1/Screenshot-20221219-041328.png)
 
+-**Sign-up Page**
 
-
+![Signup Page](https://i.postimg.cc/NMShZf07/Screenshot-20221219-042936.png)
 
 - **All Product Page**
 
   ![Landing Page](https://i.postimg.cc/D0X35gdf/Screenshot-468.png)
 
-- **Footer**
+- **Calender**
 
-  ![Landing Page](https://i.postimg.cc/Px8dFTdk/Screenshot-469.png)
+  ![Calender Page](https://i.postimg.cc/yNL3m0rp/Screenshot-20221219-043015.png)
 
 ---
 
